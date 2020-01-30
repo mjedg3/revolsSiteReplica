@@ -1,0 +1,3 @@
+$(document).ready(function(){$("open").click(function(){$("#bizzbar").effect("bounce","slow");$("open").slideUp()})});$(document).ready(function(){$("#bizzbar").effect("bounce","slow");$("close").click(function(){$("#bizzbar").slideUp();$("open").slideDown()})});
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
